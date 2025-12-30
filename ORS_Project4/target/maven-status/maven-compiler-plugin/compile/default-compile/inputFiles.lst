@@ -24,7 +24,6 @@ C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Bean\SubjectBean.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\MarksheetMeritListCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Bean\StudentBean.java
-C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\PurchaseCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Util\EmailMessage.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\WelcomeCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Model\UserModel.java
@@ -32,11 +31,11 @@ C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Util\HTMLUtility.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\MarksheetCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Bean\CollegeBean.java
-C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\PurchaseListCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Model\CourseModel.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\proj4\Test\CollegeModelTest.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\ForgetPasswordCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\proj4\Test\StudentTest.java
+C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Bean\ProductBean.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\controller\UserListCtl.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Exception\DuplicateRecordException.java
 C:\RaysSoft\ORSProject-04-main\ORSProject-04-main\ORS_Project4\src\main\java\com\rays\pro4\Model\CartModel.java
