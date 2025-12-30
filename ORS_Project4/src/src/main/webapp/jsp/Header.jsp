@@ -24,8 +24,8 @@
 	<table>
 		<tr>
 			<th></th>
-			<td width="90%"><a href="<%=ORSView.WELCOME_CTL%>">Welcome</a>
-				| <%
+			<td width="90%"><a href="<%=ORSView.WELCOME_CTL%>">Welcome</a> |
+				<%
 				if (userLoggedIn) {
 			%> <a
 				href=" <%=ORSView.LOGIN_CTL%>?operation=<%=LoginCtl.OP_LOG_OUT%>">Logout</a>
@@ -85,8 +85,8 @@
 					href="<%=ORSView.PURCHASE_CTL%>">Add Purchase</b></a> | <a
 					href="<%=ORSView.PURCHASE_LIST_CTL%>">Purchase List</b></a> | <a
 					href="<%=ORSView.CART_CTL%>">Add Cart</b></a> | <a
-					href="<%=ORSView.CART_LIST_CTL%>">Cart List</b></a> | <a
-					target="blank" href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> <%
+					href="<%=ORSView.CART_LIST_CTL%>">Cart List</b></a> | <a target="blank"
+					href="<%=ORSView.JAVA_DOC_VIEW%>">Java Doc</b></a> <%
  	}
  %> <%
  	if (userBean.getRoleId() == RoleBean.STUDENT) {
@@ -115,14 +115,10 @@
 					href="<%=ORSView.SUBJECT_CTL%>">Add Subject</b></a> | <br> <a
 					href="<%=ORSView.SUBJECT_LIST_CTL%>">Subject List</b></a> | <a
 					href="<%=ORSView.TIMETABLE_CTL%>">Add TimeTable</b></a> | <a
-					href="<%=ORSView.TIMETABLE_LIST_CTL%>">TimeTable List</b></a> | 
-					href="<%=ORSView.PATIENT_CTL%>">Patient Add</a> | <a
-					href="<%=ORSView.PATIENT_LIST_CTL%>">Patient List</a><%
- 	}
- %> <%
- 	if (userBean.getRoleId() == RoleBean.COLLEGE) {
- 			//    System.out.println("======>><><>"+userBean.getRoleId());
- %> <a href="<%=ORSView.MARKSHEET_CTL%>">Add Marksheet</b></a> | <a
+					href="<%=ORSView.TIMETABLE_LIST_CTL%>">TimeTable List</b></a> | if
+					(userBean.getRoleId() == RoleBean.COLLEGE) { //
+					System.out.println("======>><><>"+userBean.getRoleId()); %> <a
+					href="<%=ORSView.MARKSHEET_CTL%>">Add Marksheet</b></a> | <a
 					href="<%=ORSView.MARKSHEET_LIST_CTL%>">Marksheet List</b></a> | <a
 					href="<%=ORSView.STUDENT_CTL%>">Add Student</b></a> | <a
 					href="<%=ORSView.STUDENT_LIST_CTL%>">Student List</b></a> | <a
