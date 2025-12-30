@@ -21,7 +21,7 @@ import com.rays.pro4.Exception.ApplicationException;
 import com.rays.pro4.Exception.DuplicateRecordException;
 
 import com.rays.pro4.Model.CartModel;
-import com.rays.pro4.Model.PurchaseModel;
+
 import com.rays.pro4.Model.UserModel;
 import com.rays.pro4.Model.CartModel;
 import com.rays.pro4.Util.DataUtility;

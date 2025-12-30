@@ -1,4 +1,5 @@
 
+
 package com.rays.pro4.Model;
 
 import java.sql.Connection;
@@ -294,4 +295,3 @@ public class PurchaseModel {
 		return list;
 	}
 }
-

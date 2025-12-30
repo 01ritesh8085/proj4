@@ -50,7 +50,7 @@
 		<center>
 
 			<div align="center">
-				<h1>Cart list </h1>
+				<h1>Cart list</h1>
 				<h3>
 					<font color="red"><%=ServletUtility.getErrorMessage(request)%></font>
 					<font color="green"><%=ServletUtility.getSuccessMessage(request)%></font>
@@ -83,25 +83,19 @@
 						value="<%=ServletUtility.getParameter("customerName", request)%>">
 						&emsp; <label>TransactionDate</font> :
 					</label> <input type="text" name="transactionDate" id="datepicker"
-					placeholder="Enter orderDate" 
-					value="<%=ServletUtility.getParameter("transactionDate", request)%>">
-						&emsp; <label>Product</font> :
-						<%
-							HashMap map = new HashMap();
-							map.put("HighCategory", "HighCategory");
-							map.put("LowCategory", "LowCategory");
+						placeholder="Enter orderDate"
+						value="<%=ServletUtility.getParameter("transactionDate", request)%>">
+						&emsp; <label>Product</font> : <%
+ 	HashMap map = new HashMap();
+ 		map.put("HighCategory", "HighCategory");
+ 		map.put("LowCategory", "LowCategory");
 
-							String hlist = HTMLUtility.getList("product", String.valueOf(bean.getProduct()), map);
-						%> <%=hlist%>
-					&emsp;	</label>
-						<label>Quantity</font> :
-					</label> <input type="text" name="quantity"
-						placeholder="Enter quantity"
+ 		String hlist = HTMLUtility.getList("product", String.valueOf(bean.getProduct()), map);
+ %> <%=hlist%> &emsp;
+					</label> <label>Quantity</font> :
+					</label> <input type="text" name="quantity" placeholder="Enter quantity"
 						value="<%=ServletUtility.getParameter("quantity", request)%>">
-						&emsp;
-						
-						
-						<%--  <%=HTMLUtility.getList("carList", String.valueOf(bean.getTransactionDate()), carList)%>
+						&emsp; <%--  <%=HTMLUtility.getList("carList", String.valueOf(bean.getTransactionDate()), carList)%>
  --%> &nbsp; <input type="submit" name="operation"
 						value="<%=CartListCtl.OP_SEARCH%>"> &nbsp; <input
 						type="submit" name="operation" value="<%=CartListCtl.OP_RESET%>"></td>

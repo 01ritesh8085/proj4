@@ -62,8 +62,8 @@ public class CartListCtl extends BaseCtl {
 		bean.setId(DataUtility.getLong(request.getParameter("CarList")));
 
 		bean.setQuantity(DataUtility.getString(request.getParameter("quantity")));
-		
-		System.out.println("qqqqqqqqq" +request.getParameter("quantity") );
+
+		System.out.println("qqqqqqqqq" + request.getParameter("quantity"));
 
 		return bean;
 	}
