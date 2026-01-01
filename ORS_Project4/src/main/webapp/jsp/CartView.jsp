@@ -88,8 +88,8 @@
 					<th align="left">Quantity <span style="color: red">*</span> :
 					</th>
 					<td><input type="text" name="quantity"
-						placeholder="Enter quantity" size="26"
-						maxlength="25" value="<%=DataUtility.getStringData(bean.getQuantity())%>"></td>
+						placeholder="Enter quantity" size="26" maxlength="25"
+						value="<%=DataUtility.getStringData(bean.getQuantity())%>"></td>
 					<td style="position: fixed"><font color="red"> <%=ServletUtility.getErrorMessage("quantity", request)%></font></td>
 				</tr>
 				<tr>
