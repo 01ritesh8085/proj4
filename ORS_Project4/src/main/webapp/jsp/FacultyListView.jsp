@@ -28,7 +28,7 @@
 <form action="<%=ORSView.FACULTY_LIST_CTL %>" method="post">
 	
 	<div align="center">
-			<h1>Faculty List</h1>
+			<h1>Faculty List01</h1>
 			<h3><font style="color: green"><%=ServletUtility.getSuccessMessage(request)%></font> </h3>
 			<h3><font style="color: red"><%=ServletUtility.getErrorMessage(request) %></font> </h3>
 	</div>
